@@ -31,3 +31,7 @@ Deploy example.yml action.
 It works!
 
 `aws` CLI comes installed, no need to run install commands in the Github Action.
+
+## AWS official Github Action
+
+Following docs for official Github action: https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services

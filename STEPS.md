@@ -24,6 +24,10 @@ Create Role
 aws cloudformation deploy --template-file role.yml --stack-name ExampleGithubRole --capabilities CAPABILITY_NAMED_IAM
 ```
 
-## NEXT
+Provision secret at the repo level, not environment, for the Github repo.
 
-Create example Github Action that then uses this role
+Deploy example.yml action.
+
+It works!
+
+`aws` CLI comes installed, no need to run install commands in the Github Action.

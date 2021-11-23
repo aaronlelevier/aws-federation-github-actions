@@ -7,7 +7,7 @@ on:
 env:
   ACCOUNT : ${{ secrets.ACCOUNT }}
   BUCKET_NAME : ${{ secrets.BUCKET_NAME }}
-  AWS_REGION : us-west-1
+  AWS_REGION : us-east-1
 # permission can be added at job level or workflow level
 permissions:
       id-token: write

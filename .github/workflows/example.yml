@@ -1,5 +1,5 @@
 # .github/workflows/example.yml
-name: Example
+name: Example AWS API call - sts get-caller-identity
 on:
   push:
 

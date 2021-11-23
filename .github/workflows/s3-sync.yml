@@ -2,8 +2,12 @@
 # The workflow Creates static website using aws s3
 # Ref: https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services
 name: Copy file to AWS S3
+
 on:
-  push
+  push:
+    branches:
+    - templates # pick an arbitrary branch name, so we're not syncing to S3 per git push
+
 env:
   ACCOUNT : ${{ secrets.ACCOUNT }}
   BUCKET_NAME : ${{ secrets.BUCKET_NAME }}
